@@ -9,6 +9,5 @@ The code is written in Python (v3.8.5).
 - Pandas < 2.0.0
 - NetworkX == 3.1
 
-### Usage
 
 
