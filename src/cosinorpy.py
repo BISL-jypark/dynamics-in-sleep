@@ -7,6 +7,7 @@ import scipy.stats as stats
 import statsmodels.stats.multitest as multi
 from statsmodels.sandbox.regression.predstd import wls_prediction_std
 import statsmodels.api as sm
+import seaborn as sns
 
 from CosinorPy import cosinor
 
