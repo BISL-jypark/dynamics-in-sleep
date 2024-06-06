@@ -1014,9 +1014,6 @@ def test_cosinor_single(data, period = 24, corrected = True):
     coef_trans = np.array([results.params.iloc[0], amp, acr])
     se_trans = np.concatenate((np.sqrt(np.diag(results.cov_params().loc[['Intercept'], ['Intercept']])),se_trans_only))  
 
-    
-    
-    
  
     lower_CI_trans = coef_trans - np.abs(zt * se_trans)
     upper_CI_trans = coef_trans + np.abs(zt * se_trans)
@@ -1028,7 +1025,7 @@ def test_cosinor_single(data, period = 24, corrected = True):
                     'CI': (lower_CI_trans, upper_CI_trans),
                     'p-values': p_value_trans,
                     'F-test': results.f_pvalue}    
-       
+    
     return results, amp, acr, statistics
                     
     
