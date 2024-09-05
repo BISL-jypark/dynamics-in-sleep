@@ -37,8 +37,15 @@ jupyter notebook src/sleep-deprivation-validation.ipynb
 
 ## Requirements
 The code is written in Python (v3.8.5). 
-- Pandas < 2.0.0
-- NetworkX == 3.1
+- numpy==1.23.5
+- pandas==2.0.3
+- networkx==3.1
+- scipy==1.9.1
+- pingouin==0.5.3
+- CosinorPy==2.1
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 
 
